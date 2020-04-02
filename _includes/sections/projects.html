@@ -1,14 +1,14 @@
 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
 
 {% for project in site.data.index.projects %}
-    <div class="row" style="display: inline-block; margin-top: 4px;">
-            <div class="col1" style="float:left; width:15%;">
+    <div class="row" style="display: inline-block; margin-top: 4px; width: 100%;">
+            <div class="col1" style="float:left; width:20%;">
                 <img src="{{ site.url }}/img/{{ project.image }}" style="padding:8px">
             </div>
             <div class="col2" style="float:left">
             
                 <h2 style="margin: 0px">{{ project.name }}</h2>
-                <p style="margin: 0px">{{ project.descr }}</p>
+                <p style="margin: 0px; max-width:20em;">{{ project.descr }}</p>
 
                 {% if project.github %}
                 <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
@@ -19,4 +19,5 @@
 
             </div>
     </div>
+    </br>
 {% endfor %}
