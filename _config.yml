@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: akoksal
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Some cool stuff.
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "nlp", "computer", "vision"]
 
 #
 ###################################
@@ -33,22 +33,22 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: akoksal
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: "@Bogazici"
+  bio: "Cool stuff."
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: alkksl
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-162549108-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: akoksal
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
