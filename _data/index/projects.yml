@@ -4,7 +4,7 @@
   github: https://github.com/boun-tabi/BoAT
 - name: Quick Story
   descr: "Short Story Reading Application."
-  image: quickstory.webp
+  image: quickstory.png
   website: https://play.google.com/store/apps/details?id=com.koksal.quickshortstory&hl=en
 - name: Turkish Word2Vec
   descr: "Pretrained Word2Vec Model for Turkish."
