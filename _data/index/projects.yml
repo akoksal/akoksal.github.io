@@ -1,4 +1,20 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: BoAT
+  descr: "Dependency Parsing Annotation Tool for Morphologically Rich Languages."
+  image: boat.png
+  github: https://github.com/boun-tabi/BoAT
+- name: Quick Story
+  descr: "Short Story Reading Application."
+  image: quickstory.webp
+  website: https://play.google.com/store/apps/details?id=com.koksal.quickshortstory&hl=en
+- name: Turkish Word2Vec
+  descr: "Pretrained Word2Vec Model for Turkish."
+  image: word2vec.png
+  github: https://github.com/akoksal/Turkish-Word2Vec
+- name: Finch
+  descr: "Expense Tracking Application    (In Hackathon - 3rd)"
+  image: finch.png
+  github: https://github.com/akoksal/finch
+- name: Mandalina
+  descr: "Image Search for Shopping    (In Hackathon - Special Award)"
+  image: tangerine.png
+  github: https://github.com/akoksal/garantihackathon2015-mandalina
