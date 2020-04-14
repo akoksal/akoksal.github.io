@@ -190,7 +190,7 @@ Results of the test set:
 | Negative | 0.597   | 0.684   | 0.638   |
 | Average  | 0.658   | **0.688**   | 0.666   |
 
-We can use average recall for our final score which is used in [Semeval 2017 - Task 4](http://alt.qcri.org/semeval2017/task4/). Also average is macro average of scores in here. So, we don't take the number of tweets in each class into account while taking average. 
+We can use average recall for our final score which is used in [Semeval 2017 - Task 4](http://alt.qcri.org/semeval2017/task4/). Also, average is macro average of scores in here. So, we don't take the number of tweets in each class into account while taking average. 
 
 The results might be a little bit different(less than 1%) in each time because we shuffle training data in *model.fit()* in each epoch and it generates randomness to the results. 
 {: .notice}
@@ -259,7 +259,7 @@ Our second suspect is Netflix. I have seen tweets about Netflix lately in my tim
 
 > Tweet
 
-We can see the effect also but it was controversial topic after all.
+The effect is clearly visible in here too.
 
 ![](https://live.staticflickr.com/65535/49770815741_01cebfba13_z.jpg)
 
