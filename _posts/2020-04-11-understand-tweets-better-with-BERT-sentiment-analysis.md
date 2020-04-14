@@ -283,4 +283,4 @@ We also see week-long drop in sentiments about Berkcan Guven after the video.
 
 We trained a feedforward neural network with BERT features for sentiment analysis task. We also used this model to analyze popular topics in Twitter and we captured correlation between incidents and Twitter sentiments.
 
-For complete notebook and datasets check out [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb).
+For the complete notebook and the datasets, check out [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb).
