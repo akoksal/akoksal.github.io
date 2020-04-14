@@ -85,9 +85,9 @@ def filter(text):
     return final_text
 {% endhighlight %}
 
-Now, it is the *BERT* time. We are using Turkish tweets, so we use Turkish BERT. If you want to train a model for another language, check out [community models of huggingface](https://huggingface.co/models). If you cannot see a model for that language, you can use [multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md.
+Now, it is the *BERT* time. We are using Turkish tweets, so we use Turkish BERT. If you want to train a model for another language, check out [community models of huggingface](https://huggingface.co/models). If you cannot see a model for that language, you can use [multilingual BERT](https://github.com/google-research/bert/blob/master/multilingual.md).
 
-This feature_extraction method:
+This *feature_extraction* method:
 1. Takes a sentence.
 2. Filter it with our simple *filter* method.
 3. Tokenize it with Bert Tokenizer.
