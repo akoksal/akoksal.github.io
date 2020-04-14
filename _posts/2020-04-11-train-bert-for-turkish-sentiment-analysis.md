@@ -253,13 +253,14 @@ The results are beautiful! Big drops due to popularity of these two tweets.
 > Scores
 
 ##### 5.2 Netflix
-Our second suspect is Netflix. I have seen tweets about Netflix lately in my timeline. Netflix released a new Turkish series with LGBT content. There were protests in Twitter about it. Let's see the effect.
+Lately, there was a big discussion about Netflix in Twitter after their new Turkish series with LGBT content.
+
 
 ![](https://live.staticflickr.com/65535/49770815696_93f5fdd09a_n.jpg)
 
 > Tweet
 
-The effect is clearly visible in here too.
+The drop in sentiment is clearly visible in here too.
 
 ![](https://live.staticflickr.com/65535/49770815741_01cebfba13_z.jpg)
 
