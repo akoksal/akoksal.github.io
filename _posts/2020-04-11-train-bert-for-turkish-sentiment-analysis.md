@@ -16,7 +16,7 @@ Sentiment Analysis is one of the key topics in NLP to understand the public opin
 ### Dataset
 In this study, we will use BOUN Twitter Data(2018) which have **8000 of Turkish tweets** with 3 classes: positive, neutral, negative. This dataset is annotated by different judges.
 
-Also, this dataset is imbalanced: 52% is neutral, 30% is positive, 18% is negative. We will take care of this.
+Also, this dataset is imbalanced: 52% is neutral, 30% is positive, 18% is negative. We will take care of this problem.
 
 ### Code
 <!-- <details><summary markdown="span">Let's start with importing required libraries.</summary>
@@ -199,7 +199,7 @@ The results might be a little bit different(less than 1%) in each time because w
 
 Now we will analyze real tweets by our model!
 ##### 5.1. Cappy
-Our first suspect is Cappy. Lately, I have seen tweets about Cappy juice in Turkey which have unidentified objects in it. People were talking about this and I want to see the effect. The ugly tweets are:
+Our first suspect is Cappy. Lately, I have seen tweets about Cappy juice in Turkey which have unidentified objects in it. People were talking about this and I want to see the effect. The ugly tweets:
 
 ![](https://live.staticflickr.com/65535/49770817666_a79d38c4bd_n.jpg)
 
@@ -209,7 +209,7 @@ Our first suspect is Cappy. Lately, I have seen tweets about Cappy juice in Turk
 
 > Tweet 2
 
-First, I collected real tweets by [TweetScraper](https://github.com/jonbakerfish/TweetScraper) with Cappy keyword and Turkish language. Then, our model predicted sentiments of the tweets and remove 1 to map values between (-1,1).
+First, tweets are collected by using [TweetScraper](https://github.com/jonbakerfish/TweetScraper) with Cappy keyword and Turkish language and saved to cappy.json file. Then, our model predicted sentiments of the tweets and remove 1 to map values between (-1,1).
 
 After that we simply print figure with moving average to see effect of these tweets.
 
@@ -284,6 +284,3 @@ We also see week-long drop in sentiments about Berkcan Guven after the video.
 We trained a feedforward neural network with BERT features for sentiment analysis task. We also used this model to analyze popular topics in Twitter and we captured correlation between incidents and Twitter sentiments.
 
 For complete notebook and datasets check out [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb).
-
-### References
-Thanks to Abdullatif Koksal, Arda Celebi, Arzucan Ozgur, and students of CmpE 493 in 2018 for BOUN Twitter Dataset.
