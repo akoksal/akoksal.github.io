@@ -253,11 +253,10 @@ The results are beautiful! Big drops due to popularity of these two tweets.
 > Scores
 
 ##### 5.2 Netflix
-Lately, there was a big discussion about Netflix in Twitter after their new Turkish series with LGBT content.
+Lately, big discussion about Netflix in Twitter occured after their new Turkish series with LGBT content.
 
 
 ![](https://live.staticflickr.com/65535/49770815696_93f5fdd09a_n.jpg)
-
 > Tweet
 
 The drop in sentiment is clearly visible in here too.
