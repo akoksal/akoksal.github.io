@@ -11,7 +11,7 @@ image:
 ---
 
 ### Sentiment Analysis
-Sentiment Analysis is one of the key topics in NLP to understand the public opinion about any brand, celebrity, or politician. Thanks to pretrained BERT models, we can train simple yet powerful models. In this study, we will train a multilayer perceptron in Keras with features extracted from [Turkish BERT](https://github.com/stefan-it/turkish-bert) for Turkish tweets.
+Sentiment Analysis is one of the key topics in NLP to understand the public opinion about any brand, celebrity, or politician. Thanks to pretrained BERT models, we can train simple yet powerful models. In this study, we will train a feedforward neural network in Keras with features extracted from [Turkish BERT](https://github.com/stefan-it/turkish-bert) for Turkish tweets.
 
 ### Dataset
 In this study, we will use BOUN Twitter Data(2018) which have **8000 of Turkish tweets** with 3 classes: positive, neutral, negative. This dataset is annotated by different judges.
@@ -283,7 +283,7 @@ We also see week-long drop in sentiments about Berkcan Guven after the video.
 
 ### Conclusion
 
-We trained a feed forward neural network with BERT features for sentiment analysis task. We also used this model to analyze popular topics in Twitter and we captured correlation between incidents and Twitter sentiments.
+We trained a feedforward neural network with BERT features for sentiment analysis task. We also used this model to analyze popular topics in Twitter and we captured correlation between incidents and Twitter sentiments.
 
 For complete notebook and datasets check out [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb).
 
