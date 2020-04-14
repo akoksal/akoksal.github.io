@@ -48,8 +48,6 @@ from keras.optimizers import Adagrad
 from sklearn.decomposition import PCA
 from sklearn.metrics import classification_report, f1_score
 from sklearn.utils import class_weight
-from spacy.lang.tr import Turkish
-from spacy.tokenizer import Tokenizer
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
 {% endhighlight %}
