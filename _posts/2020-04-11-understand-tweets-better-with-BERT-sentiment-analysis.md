@@ -100,9 +100,8 @@ bert = AutoModel.from_pretrained("dbmdz/bert-base-turkish-128k-uncased").to(devi
 def feature_extraction(text):
     x = tokenizer.encode(filter(text))
     with torch.no_grad():
-        x, _ = bert(torch.stack([torch.tensor(tokenizer.encode(text))]).to(device))
+        x, _ = bert(torch.stack([torch.tensor(x)]).to(device))
         return list(x[0][0].cpu().numpy())
-
 {% endhighlight %}
 
 Let's load our dataset and process through our feature extraction method.
