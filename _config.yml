@@ -6,8 +6,11 @@
 title: akoksal
 email:
 description: NLP Research
-url: https://akoksal.github.io
+url: https://akoksal.com
 keywords: ["blog", "nlp", "computer", "vision"]
+plugins:
+  - jekyll-sitemap
+
 
 #
 ###################################
