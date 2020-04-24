@@ -38,7 +38,7 @@ This 6-weeks course is a simple introduction to linguistics. In each week, we ha
     <iframe width="500" height="315" src="https://www.youtube.com/embed/3oef68YabD0?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 6. **Sociolinguistic**<br>
-    Last week, sociolinguistics is introduced by Labov's study about language change in Philadelphia. Politeness theory is also explained. I liked the idea of politeness theory. Check out this well-prepared Wikipedia article about it: [Politeness Theory](https://en.wikipedia.org/wiki/Politeness_theory)
+    Last week, sociolinguistics is introduced by Labov's study about language change in Philadelphia. Politeness theory is also explained. I like the idea of politeness theory. Check out this well-prepared Wikipedia article about it: [Politeness Theory](https://en.wikipedia.org/wiki/Politeness_theory)
 
     In the end, Adele Goldberg talks about the constructionist approach in language learning.
 
