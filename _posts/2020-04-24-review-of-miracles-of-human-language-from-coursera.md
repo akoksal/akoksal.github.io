@@ -11,7 +11,7 @@ image:
 ---
 
 ###  My Objective
-My main objective to take this course is understanding linguistics aspects of NLP better and getting an idea about overall linguistics topics. I only took the Semantics(LING 504) course from Bogazici University without taking any linguistics course before. So, I thought that this course would be a good introduction to the area for me.
+My main objective to take this course is understanding linguistics aspects of NLP better and getting an idea about overall linguistics topics. I haven't take any introduction to linguistics course before. So, I thought that this course would be a good introduction to the area for me.
 
 ### Course
 
