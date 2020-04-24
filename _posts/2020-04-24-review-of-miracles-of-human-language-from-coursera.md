@@ -25,7 +25,7 @@ This 6-weeks course is a simple introduction to linguistics. In each week, we ha
 
 3. **Morphology and Syntax**<br>
     They introduce morphology and syntax by discussing word and sentence structures in different languages. It is a simple introduction, though. They discuss word orders in sentences and questions, affixes, etc. This week, the interview was with *Noam Chomsky*. It was about his journey to linguistics. I would recommend it:<br><br>
-    <div class="video-container" align="center">
+    <div class="video-container">
     <iframe width="500" height="315"  src="https://www.youtube.com/embed/VsyOVxEqJsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
@@ -34,7 +34,7 @@ This 6-weeks course is a simple introduction to linguistics. In each week, we ha
 
 5. **Aphasia**<br>
     In the fifth week, they introduce language-related problems in the brain(aphasia). The connection between the brain and reading is also discussed in this week. Professor Neils Schiller discusses neurolinguistics and Western Bias in linguistics. I haven't seen aphasia disorder before this course and I believe it is a quite different phenomenon. Check out this video with aphasia patient:<br><br>
-    <div class="video-container" align="center">
+    <div class="video-container">
     <iframe width="500" height="315" src="https://www.youtube.com/embed/3oef68YabD0?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 6. **Sociolinguistic**<br>
