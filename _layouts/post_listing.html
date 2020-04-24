@@ -53,10 +53,11 @@ layout: default
       {% endif %}
       alt="{{ post.title | escape }} feature image">
 
+      </a>
       {% if post.image.credit %}
       <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
       {% endif %}
-    </a>
+      
     </div><!-- /.image-wrap -->
     {% endif %}
 
