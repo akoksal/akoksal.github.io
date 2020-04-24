@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Review of Miracles of Human Language from Coursera
-excerpt: "I have completed 6-week introduction to linguistics course from Coursera. My main objective was to understand linguistics parts of NLP better."
+excerpt: "This 6-weeks course is a simple introduction to linguistics. In each week, we have lectures, interviews, and modules with 6 different language speakers to look up real language data of related topics of each week. We also have discussion sessions with two students to cover up each week's topics."
 categories: 
 comments: true
 image:
@@ -15,7 +15,7 @@ My main objective to take this course is understanding linguistics aspects of NL
 
 ### Course
 
-This course is a simple introduction to linguistics consist of 6-weeks. In each week, we have lectures, interviews and examplar videos with 6 different language speakers to look up real language data of related topics of that week. We have also discussion sessions with two students to cover up each week's topics. Let's look at the content.
+This 6-weeks course is a simple introduction to linguistics. In each week, we have lectures, interviews, and modules with 6 different language speakers to look up real language data of related topics of each week. We also have discussion sessions with two students to cover up each week's topics. Let's look at the content.
 
 1. **Human Language and Language Diversity**<br>
     In the first week, they introduce languages by stating the differences between human and animal communication systems. They introduce Ethnologue which is an online encyclopedia for languages. Also, Victoria Nyst talks about sign language in the interview section.
