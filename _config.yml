@@ -10,6 +10,7 @@ url: https://akoksal.com
 keywords: ["blog", "nlp", "computer", "vision"]
 plugins:
   - jekyll-sitemap
+  - jekyll-figure
 
 
 #
