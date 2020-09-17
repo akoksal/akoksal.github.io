@@ -6,6 +6,7 @@ categories:
 comments: true
 image:
     feature: sentiment_analysis_cappy.png
+    feature_display: True
 #   credit: thomas shellberg
 #   creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---

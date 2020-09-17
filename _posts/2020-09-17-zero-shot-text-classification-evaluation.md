@@ -5,6 +5,8 @@ excerpt: "Recently, zero shot text classification attracted a huge interest due 
 categories: 
 comments: true
 image:
+    feature: tr.jpg
+    feature_display: False
 ---
 
 Recently, zero-shot text classification attracted a huge interest due to its simplicity. In this post, we will see how to use zero-shot text classification with any labels and explain the background model. Then, we will evaluate its performance by human annotated datasets in sentiment analysis, news categorization, and emotion classification.
@@ -15,7 +17,7 @@ In zero-shot text classification, the model can classify any text between given 
 
 
 <div style="text-align: center;">
-  <img src="{{ site.url }}/img/tr.jpg" width="30%">
+  <img src="{{ site.url }}/img/tr.jpg" width="25%">
   <span style="display: inline-block;"> *Tabula Rasa* </span>
 </div>
 

@@ -8,6 +8,7 @@ image:
     feature: miracles_of_human_lang.png
     credit: "Miracles of Human Language: An Introduction to Linguistics"
     creditlink: https://www.coursera.org/learn/human-language
+    feature_display: True
 ---
 
 ###  My Objective
