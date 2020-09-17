@@ -5,7 +5,6 @@ excerpt: "Recently, zero shot text classification attracted a huge interest due 
 categories: 
 comments: true
 image:
-    feature: tr.jpg
 ---
 
 Recently, zero-shot text classification attracted a huge interest due to its simplicity. In this post, we will see how to use zero-shot text classification with any labels and explain the background model. Then, we will evaluate its performance by human annotated datasets in sentiment analysis, news categorization, and emotion classification.
@@ -13,6 +12,13 @@ Recently, zero-shot text classification attracted a huge interest due to its sim
 ### Zero-Shot Text Classification
 
 In zero-shot text classification, the model can classify any text between given labels without any prior data.
+
+
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/tr.jpg" width="30%">
+  <span style="display: inline-block;"> *Tabula Rasa* </span>
+</div>
+
 
 With zero-shot text classification, it is possible to perform:
 * Sentiment analysis
@@ -22,9 +28,12 @@ With zero-shot text classification, it is possible to perform:
 ### Background
 Actually, the latest implementations of zero-shot text classification born out of a very simple but brilliant idea. There is a field called Natural Language Inference (NLI) in NLP. This field investigates whether a hypothesis is true (entailment), false (contradiction), or undetermined (neutral) for a given premise.
 
-| ![]({{ site.url }}/img/sup_nli.png) | 
-|:--:| 
-| *Supervised NLI System* |
+
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/sup_nli.png">
+  <span style="display: inline-block;"> *Supervised NLI System* </span>
+</div>
+
 
 Now, let's assume our text is *"I love this movie."* and we want to predict the sentiment of the text between candidate labels of positive and negative. We give these two hypothesis-premise pairs to already trained NLI model and check the results.
 
@@ -41,32 +50,37 @@ Basically, it creates hypothesis template of "this example is …" for each cla
 Thanks to HuggingFace, it can be easily used through the [pipeline module](https://huggingface.co/transformers/main_classes/pipelines.html#transformers.ZeroShotClassificationPipeline).
 
 
-| ![]({{ site.url }}/img/c1.png) | 
-|:--:| 
-| *Initializing the classifier with an example of sentiment analysis* |
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/c1.png">
+  <span style="display: inline-block;"> *Initializing the classifier with an example of sentiment analysis* </span>
+</div>
+
 
 In the first example, we initialize the classifier from transformers pipeline and then give an example from [IMDB dataset](http://ai.stanford.edu/~amaas/data/sentiment/). You can see that the classifier produces scores for each label. In the first example, it predicts the sentiment of the text as positive, correctly.
 
 
-| ![]({{ site.url }}/img/c2.png) | 
-|:--:| 
-| *Example of news categorization* |
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/c2.png">
+  <span style="display: inline-block;"> *Example of news categorization* </span>
+</div>
 
 Our second example is for news categorization from [AG News dataset](http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html). It correctly predicts the news in business category.
 
-| ![]({{ site.url }}/img/c3.png) | 
-|:--:| 
-| *Example of emotion classification* |
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/c3.png">
+  <span style="display: inline-block;"> *Example of emotion classification* </span>
+</div>
+
 
 In our last example, we investigated an example from [Emotion dataset](https://github.com/dair-ai/emotion_dataset). Zero-shot classification model predicts emotion of the sentence "i didnt feel humiliated" as surprise, however gold label is sadness.
 
 ### Evaluation
 Zero-shot classification looks promising in these examples. However, its performance should be evaluated with correct measurements by using already labeled examples.
 
-
-| ![]({{ site.url }}/img/cherry.jpeg) | 
-|:--:| 
-| *Cherry-picking??? Photo by Andriyko Podilnyk on Unsplash* |
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/cherry.jpeg">
+  <span style="display: inline-block;"> *Cherry-picking??? Photo by Andriyko Podilnyk on Unsplash* </span>
+</div>
 
 By using the latest dataset library of HuggingFace, we can easily evaluate its performance on several datasets.
 * [IMDB dataset](http://ai.stanford.edu/~amaas/data/sentiment/): sentiment analysis<br>
@@ -78,9 +92,10 @@ Classes: *anger, fear, joy, love, sadness, surprise*
 
 Let's compare our zero-shot text classification model with the state-of-the-art models and random pick in micro-average F1.
 
-| ![]({{ site.url }}/img/table.png) | 
-|:--:| 
-| *Micro-average F1 in different datasets* |
+<div style="text-align: center;">
+  <img src="{{ site.url }}/img/table.png">
+  <span style="display: inline-block;"> *Micro-average F1 in different datasets* </span>
+</div>
 
 For more details about initializing zero-shot classification pipeline and evaluation code, check out this well-prepared [Colab Notebook](https://colab.research.google.com/drive/14NuJFnW3hsKNYvy0t37S0x3YYRhrxJ47?usp=sharing).
 
