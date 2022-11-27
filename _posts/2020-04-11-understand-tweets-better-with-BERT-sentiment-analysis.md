@@ -1,25 +1,28 @@
 ---
-layout: post
 title:  Understand Tweets Better with BERT Sentiment Analysis
+date: 2020-04-11
 excerpt: "To understand public opinion about any topic, we have to process massive amount of tweets better. Let's train a model with BERT features for Turkish tweets and see current trends about brands, celebrities, and politicians."
-categories: 
-comments: true
-image:
-    feature: sentiment_analysis_cappy.png
-    feature_display: True
+permalink: /blog/understand-tweets-better-with-BERT-sentiment-analysis/
+# categories: 
+# image:
+#     feature: sentiment_analysis_cappy.png
+#     feature_display: True
 #   credit: thomas shellberg
 #   creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
 
-### Sentiment Analysis
+Sentiment Analysis
+======
 Sentiment Analysis is one of the key topics in NLP to understand the public opinion about any brand, celebrity, or politician. Thanks to pretrained BERT models, we can train simple yet powerful models. In this study, we will train a feedforward neural network in Keras with features extracted from [Turkish BERT](https://github.com/stefan-it/turkish-bert) for Turkish tweets.
 
-### Dataset
-In this study, we will use BOUN Twitter Data(2018) which have **8000 of Turkish tweets** with 3 classes: positive, neutral, negative. This dataset is annotated by different judges.
+Dataset
+======
+In this study, we will use BOUN Twitter Data (2018) which have **8000 of Turkish tweets** with 3 classes: positive, neutral, negative. This dataset is annotated by different judges.
 
 Also, this dataset is imbalanced: 52% is neutral, 30% is positive, 18% is negative. We will take care of this problem.
 
-### Code
+Code
+======
 <!-- <details><summary markdown="span">Let's start with importing required libraries.</summary>
 ```python
 import json
@@ -28,7 +31,8 @@ import json
 <br/> -->
 Complete version of this code and the datasets can be reached in [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb). 
 
-#### 1. Importing libraries and paths
+**1. Importing libraries and paths**
+
 Let's start with importing required libraries:
 
 {% highlight python %}
@@ -67,7 +71,7 @@ netflix_path = 'Other Data/netflix.json'
 device = 'cuda' #set to cpu if you don't have gpu
 {% endhighlight %}
 
-#### 2. Filtering and Feature Extraction with BERT
+**2. Filtering and Feature Extraction with BERT**
 
 Simple filter function for links and mentions.
 
@@ -136,7 +140,8 @@ X_test, y_test = data_prep(test)
 
 {% endhighlight %}
 
-#### 3. Training a Model
+**3. Training a Model**
+
 Now, it is the BEST part. We are starting to train a model. Let's define the model first.
 * We use *class_weights* to take care of our imbalanced dataset(To prevent tendency of predicting neutral most of the time due to its high frequency).
 * *Dropout* layers for regularization.
@@ -179,7 +184,7 @@ print(classification_report(y_true, y_pred, digits=3))
 
 {% endhighlight %}
 
-#### 4. Results
+**4. Results**
 
 Results of the test set:
 
@@ -195,10 +200,12 @@ We can use average recall for our final score which is used in [Semeval 2017 - T
 The results might be a little bit different(less than 1%) in each time because we shuffle training data in *model.fit()* in each epoch and it generates randomness to the results. 
 {: .notice}
 
-#### 5. Analyze
+**5. Analyze**
 
 Now we will analyze real tweets by our model!
-##### 5.1. Cappy
+
+**5.1. Cappy**
+
 Our first suspect is Cappy. Lately, I have seen tweets about Cappy juice in Turkey which have unidentified objects in it. People were talking about this and I want to see the effect. The ugly tweets:
 
 ![](https://live.staticflickr.com/65535/49770817666_a79d38c4bd_n.jpg)
@@ -252,7 +259,8 @@ The results are beautiful! Big drops due to popularity of these two tweets.
 ![](https://live.staticflickr.com/65535/49770286768_504f0dbbd8_z.jpg)
 > Scores
 
-##### 5.2 Netflix
+**5.2 Netflix**
+
 Lately, big discussion about Netflix in Twitter occured after their new Turkish series with LGBT content.
 
 
@@ -265,7 +273,8 @@ The drop in sentiment is clearly visible in here too.
 
 > Scores
 
-##### 5.3 Berkcan Guven(Youtuber)
+**5.3 Berkcan Guven (Youtuber)**
+
 Our last suspect is one of the most famous youtubers in Turkey, Berkcan Guven. Berkcan Guven released a debatable video with underage celebrity. He removed the video 7 hours after uploading but 700k people watched it already. Let's see the effect of this in Twitter.
 
 
@@ -279,8 +288,8 @@ We also see week-long drop in sentiments about Berkcan Guven after the video.
 
 > Scores
 
-### Conclusion
-
+Conclusion
+======
 We trained a feedforward neural network with BERT features for sentiment analysis task. We also used this model to analyze popular topics in Twitter and we captured correlation between incidents and Twitter sentiments.
 
 For the complete notebook and the datasets, check out [my github repo](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish/blob/master/BERT%20Features%20with%20Keras.ipynb).
