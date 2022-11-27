@@ -266,6 +266,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sass-converter
   jekyll-sitemap
   webrick
 

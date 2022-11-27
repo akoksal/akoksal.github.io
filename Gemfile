@@ -29,6 +29,7 @@ gem "jekyll-paginate"
 gem "jekyll-gist"
 gem "jekyll-redirect-from"
 gem "webrick"
+gem 'jekyll-sass-converter'
 
 
 # gem "webrick", "~> 1.7"
