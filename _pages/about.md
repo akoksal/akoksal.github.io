@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year ELLIS PhD Student in CIS, LMU, and Cambridge University, advised by [Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/) and [Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/). My primary research interest is the practical aspect of few-shot learning in Natural Language Processing. My most recent research focuses on uncertainty and variability in few-shot prompting. I am also interested in bias in PLMs, computational social science, and text generation.
+I am a first-year ELLIS PhD Student in CIS, LMU, and Cambridge University, advised by [Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/) and [Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/). My primary research interest is the practical aspect of few-shot learning in Natural Language Processing. My most recent research focuses on uncertainty and variability in few-shot prompting. I am also interested in bias in PLMs, computational social science, and text generation.
 
 Prior to starting my PhD, I received my BSc and MSc in Computer Engineering from Bogazici University, Istanbul, advised by [Arzucan Ozgur](https://www.cmpe.boun.edu.tr/~ozgur/). I also worked as an applied science intern at Amazon Books in Madrid, focusing on structured prediction from long-text documents.
 
