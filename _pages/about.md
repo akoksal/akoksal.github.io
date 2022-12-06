@@ -13,7 +13,7 @@ Prior to starting my PhD, I received my BSc and MSc in Computer Engineering from
 
 News
 ------
-**December 2022**: 🇦🇪 I will attend EMNLP 2022 in Abu Dhabi. [Ping me](https://www.twitter.com/alkksl) if you would like to chat!
+**December 2022**: 🇦🇪 I will attend EMNLP 2022 in Abu Dhabi. [Ping me](https://www.twitter.com/akoksal_) if you would like to chat!
 
 **November 2022**: 📃 New preprint: [MEAL: Stable and Active Learning for Few-Shot Prompting
 ](https://arxiv.org/abs/2211.08358)
