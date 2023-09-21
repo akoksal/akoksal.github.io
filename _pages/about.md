@@ -18,7 +18,7 @@ News
 **May 2023**: 📃 New preprint: [Language-Agnostic Bias Detection in Language Models](https://arxiv.org/abs/2305.13302)
 
 **April 2023**: 📃 New preprints:
-* [LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction](https://arxiv.org/abs/2304.08460)
+* [LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction](https://arxiv.org/abs/2304.08460) [(Talk at Munich NLP)](https://www.youtube.com/watch?v=G571S60Ip2o)
 * [Sociocultural knowledge is needed for selection of shots in hate speech detection tasks](https://arxiv.org/abs/2304.01890)
 
 **December 2022**: 🇦🇪 I will attend EMNLP 2022 in Abu Dhabi. [Ping me](https://www.twitter.com/akoksal_) if you would like to chat!
