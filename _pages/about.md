@@ -26,7 +26,7 @@ News
 **November 2022**: 📃 New preprint: [MEAL: Stable and Active Learning for Few-Shot Prompting
 ](https://arxiv.org/abs/2211.08358)
 
-**October 2022**: 📝 Our paper, [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://arxiv.org/abs/2210.13181), is accepted at EMNLP 2022.<br>
+**October 2022**: 📝 [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://aclanthology.org/2022.emnlp-main.746/) is accepted at EMNLP 2022.<br>
 📃 New preprint: [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment](https://arxiv.org/abs/2210.06207)
 
 **September 2022**: 🇪🇸 I attended [ELLIS Doctoral Symposium](https://ellisalicante.org/eds2022/) in Alicante and presented our work on language-agnostic racial bias detection in LMs.
