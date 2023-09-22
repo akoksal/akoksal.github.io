@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am a second-year ELLIS PhD Student at the University of Munich and the University of Cambridge, advised by [Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/) and [Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/). My research interests include **few-shot and unsupervised learning in NLP**, **data-centric methods for effective large language models**, and **computational social science**.
 
-Prior to starting my PhD, I received my BSc and MSc in Computer Engineering from Bogazici University, Istanbul, advised by Arzucan Ozgur](https://www.cmpe.boun.edu.tr/~ozgur/). I worked as an applied science intern at Amazon Books in Madrid, focusing on structured prediction from long-text documents. Recently, I interned at Google in Mountain View, working on attribution and counterfactuality in large language models.
+Prior to starting my PhD, I received my BSc and MSc in Computer Engineering from Bogazici University, Istanbul, advised by [Arzucan Ozgur](https://www.cmpe.boun.edu.tr/~ozgur/). I worked as an applied science intern at Amazon Books in Madrid, focusing on structured prediction from long-text documents. Recently, I interned at Google in Mountain View, working on attribution and counterfactuality in large language models.
 
 News
 ------
