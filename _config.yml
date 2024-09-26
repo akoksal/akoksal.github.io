@@ -87,8 +87,8 @@ analytics:
 author:
   name             : "Abdullatif Köksal"
   avatar           : "profile_custom2.jpeg"
-  bio              : "PhD Student at LMU & Cambridge University" # How to add new line to the bio? > https://stackoverflow.com/a/21699210/1207762
-  location         : "Munich, Germany"
+  bio              : "PhD Student at LMU Munich & Cambridge University" # How to add new line to the bio? > https://stackoverflow.com/a/21699210/1207762
+  location         : "Cambridge, UK"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=fxf_uAwAAAAJ&hl=en"

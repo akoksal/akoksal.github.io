@@ -7,37 +7,56 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year ELLIS PhD Student at the University of Munich and the University of Cambridge, advised by [Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/) and [Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/). My research interests include **few-shot and unsupervised learning in NLP**, **data-centric methods for effective large language models**, and **computational social science**.
+I am a final-year ELLIS PhD student at [CIS](https://www.cis.uni-muenchen.de/) at LMU Munich and [LTL](https://ltl.mmll.cam.ac.uk/) at the University of Cambridge, supervised by [Prof. Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/) and [Prof. Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/). I've had the opportunity to complete research internships at Google in Mountain View and Amazon in Madrid.
 
-Prior to starting my PhD, I received my BSc and MSc in Computer Engineering from Bogazici University, Istanbul, advised by [Arzucan Ozgur](https://www.cmpe.boun.edu.tr/~ozgur/). I worked as an applied science intern at Amazon Books in Madrid, focusing on structured prediction from long-text documents. Recently, I interned at Google in Mountain View, working on attribution and counterfactuality in large language models.
+My research focuses on improving LLM capabilities through *effective data utilization* and *synthetic dataset generation*, with a particular emphasis on *corpus-mining*, *counterfactuality*, *robustness*, and *multilinguality*. Below are key questions and findings from my work:
+
+**Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
+
+> * I introduced [reverse instructions](https://arxiv.org/abs/2304.08460) to repurpose existing human-written texts for instruction tuning, improving long-form output quality. 
+* I developed [MURI (Multilingual Reverse Instructions)](https://arxiv.org/abs/2409.12958), creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.
+* I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.
+
+**Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
+> * I have [generated](https://arxiv.org/abs/2311.07424) a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)
+* We [created](https://arxiv.org/abs/2407.06699) a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.
+* I [investigated](https://aclanthology.org/2023.findings-emnlp.36/) the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.
+
+**Multilinguality and Bias**. Contributing to multilingual NLP and bias recognition.
+
+> * I have designed one of the first [multilingual relation extraction datasets](https://aclanthology.org/2020.findings-emnlp.32/) covering six languages.
+* I [demonstrated](https://aclanthology.org/2023.findings-emnlp.848/) significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).
+* We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.
+
+Turkish-specific contributions:
+> As a Turkish researcher, I've contributed to various Turkish NLP resources:
+ [TurkishMMLU](https://arxiv.org/abs/2407.12402) and resources for [sentiment analysis](https://ieeexplore.ieee.org/abstract/document/9477814/) and [dependency parsing](https://link.springer.com/article/10.1007/s10579-021-09558-0), various Github repositories [[1](https://github.com/akoksal/Turkish-Word2Vec),[2](https://github.com/akoksal/Turkish-Lemmatizer),[3](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish)] and gave [talks](https://www.youtube.com/watch?v=d6GsBAgzD-I). I co-organized the first Turkic NLP workshop, [SIGTURK](https://sigturk.github.io/workshop), at ACL-2024. 
 
 News
 ------
+**October 2024**: 4 papers accepted at EMNLP 2024: [LongForm](https://arxiv.org/abs/2304.08460), [TurkishMMLU](https://arxiv.org/abs/2407.12402), [SynthEval](https://arxiv.org/abs/2408.17437), [CovERed](https://www.arxiv.org/abs/2407.06699).
+**September 2024**: I am visiting the Language Technology Lab at the University of Cambridge.
+**August 2024**: I have attended ACL 2024 to co-organize the first Turkic NLP workshop, [SIGTURK](https://sigturk.github.io/workshop).
+**May 2024**: I have presented [LongForm](https://arxiv.org/abs/2304.08460) and [Hallucination Augmented Recitations](https://arxiv.org/abs/2311.07424) at [the DPFM workshop](https://iclr.cc/virtual/2024/workshop/20585) at ICLR 2024. 
+**May 2024**: I have attended LREC-COLING 2024 to present [SilverAlign](https://aclanthology.org/2024.lrec-main.1290/).
+**December 2023**: I have attended EMNLP 2023 to present [MEAL](https://aclanthology.org/2023.findings-emnlp.36/) and [Language-Agnostic Bias Detection in Language Models](https://aclanthology.org/2023.findings-emnlp.848/).
 **June 2023**: I will be in Mountain View for 3 months as a research intern at Google, focusing on attribution and counterfactuality in large language models.
-
-**May 2023**: New preprint: [Language-Agnostic Bias Detection in Language Models](https://arxiv.org/abs/2305.13302)
-
-**April 2023**: New preprints:
-* [LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction](https://arxiv.org/abs/2304.08460) [(Talk at Munich NLP)](https://www.youtube.com/watch?v=G571S60Ip2o)
-* [Sociocultural knowledge is needed for selection of shots in hate speech detection tasks](https://arxiv.org/abs/2304.01890)
-
-**December 2022**: I will attend EMNLP 2022 in Abu Dhabi. [Ping me](https://www.twitter.com/akoksal_) if you would like to chat!
-
-**November 2022**: New preprint: [MEAL: Stable and Active Learning for Few-Shot Prompting
-](https://arxiv.org/abs/2211.08358)
-
-**October 2022**: [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://aclanthology.org/2022.emnlp-main.746/) is accepted at EMNLP 2022.<br>
+<!-- **October 2022**: [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://aclanthology.org/2022.emnlp-main.746/) is accepted at EMNLP 2022.<br>
 📃 New preprint: [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment](https://arxiv.org/abs/2210.06207)
 
 **September 2022**: I attended [ELLIS Doctoral Symposium](https://ellisalicante.org/eds2022/) in Alicante and presented our work on language-agnostic racial bias detection in LMs.
+ -->
 
 Selected Publications
 ------
-1. **Köksal, A.**; Schick, T.; Korhonen, A.; Schütze, H.; *LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction*. [arXiv preprint](https://arxiv.org/abs/2304.08460). 2023.
-2. **Köksal, A.**; Yalcin, O.F.; Akbiyik, A.; Kilavuz, M.T.; Korhonen, A.; Schütze, H.; *Language-Agnostic Bias Detection in Language Models*. [arXiv preprint](https://arxiv.org/abs/2305.13302). 2023.
-3. **Köksal, A.**; Schick, T.; Schütze, H.; *MEAL: Stable and Active Learning for Few-Shot Prompting*. [arXiv preprint](https://arxiv.org/abs/2211.08358). 2022.
-4. Weissweiler, L.; Hoffmann, V.; **Köksal, A.**; Schütze, H.; *The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative*. [EMNLP 2022](https://arxiv.org/abs/2210.13181).
-5. Türk, U.; Atmaca, F.; Özateş, Ş.B.; Berk, G.; Bedir, S.T.; **Köksal, A.**; Öztürk, B.; Güngör, T.; Özgür, A.; *Resources for Turkish Dependency Parsing: Introducing the BOUN Treebank and the BoAT Annotation Tool*. [Language Resources and Evaluation 2022](https://link.springer.com/article/10.1007/s10579-021-09558-0).
-6. Huang, Y.; Giledereli, B.; **Köksal, A.**; Özgür, A.; Ozkirimli, E.; *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*. [EMNLP 2021](https://aclanthology.org/2021.emnlp-main.643/).
-7. **Köksal, A.**; Özgür, A.; *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*. [Findings of EMNLP 2020](https://aclanthology.org/2020.findings-emnlp.32/).
-8. **Köksal, A.**; Dönmez, H; Özçelik, R.; Ozkirimli, E.; Özgür, A.; *Vapur: A Search Engine to Find Related Protein – Compound Pairs in COVID-19 Literature*. [Workshop on NLP for COVID-19 at EMNLP 2020](https://aclanthology.org/2020.nlpcovid19-2.21/). [🛳 Demo](https://tabilab.cmpe.boun.edu.tr/vapur/).
+1. **Köksal, A.**; Thaler, M.; Imani, A.; Üstün, A.; Korhonen, A.; Schütze, H.; *MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions*. [Submitted to TACL](https://arxiv.org/abs/2409.12958). 2024. [💻 Code](https://github.com/akoksal/muri).
+2. **Ziegler, I.**; Köksal, A.; Elliott, D.; Schütze, H.; *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*. [Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024. [💻 Code](https://github.com/ziegler-ingo/CRAFT).
+3. **Köksal, A.**; Schick, T.; Korhonen, A.; Schütze, H.; *LongForm: Effective Instruction Tuning with Reverse Instructions*. [EMNLP Findings](https://arxiv.org/abs/2304.08460). 2024.
+4. Modarressi, A.; **Köksal, A.**; Schütze, H.; *Consistent Document-Level Relation Extraction via Counterfactuals*. [EMNLP Findings](https://arxiv.org/abs/2407.06699). 2024.
+5. Yüksel, A.; **Köksal, A.**; Şenel, L.K.; Korhonen, A.; Schütze, H.; *TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish*. [EMNLP Findings](https://arxiv.org/abs/2407.12402). 2024.
+6. Zhao, R.; **Köksal, A.**; Liu, Y.; Weissweiler, L.; Korhonen, A.; Schütze, H.; *SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists*. [EMNLP Findings](https://arxiv.org/abs/2408.12402). 2024.
+7. **Köksal, A.**; Aksitov, R.; Chang, C.C.; *Hallucination Augmented Recitations for Language Models*. [Submitted to COLING](https://arxiv.org/abs/2311.07424). 2024.
+8. **Köksal, A.**; Schick, T.; Schütze, H.; *MEAL: Stable and Active Learning for Few-Shot Prompting*. [EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.36/). 2023.
+9. **Köksal, A.**; Yalcin, O.; Akbiyik, A.; Kilavuz, M.T.; Korhonen, A.; Schütze, H.; *Language-Agnostic Bias Detection in Language Models with Bias Probing*. [EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.848/). 2023.
+10. Huang, Y.; Giledereli, B.; **Köksal, A.**; Özgür, A.; Ozkirimli, E.; *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*. [EMNLP](https://aclanthology.org/2021.emnlp-main.643/). 2021.
+11. **Köksal, A.**; Özgür, A.; *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*. [EMNLP Findings](https://aclanthology.org/2020.findings-emnlp.32/). 2020.
