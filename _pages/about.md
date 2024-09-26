@@ -67,72 +67,38 @@ News
 
 Selected Publications
 ------
-1. *MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions*
-
-**Abdullatif Köksal**, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze
-
-[Submitted to TACL](https://arxiv.org/abs/2409.12958). 2024.
-
+1. *MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions*  
+**Abdullatif Köksal**, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze  
+[Submitted to TACL](https://arxiv.org/abs/2409.12958). 2024.  
 [💻 Code](https://github.com/akoksal/muri).
-
-2. *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*
-
-Ingo Ziegler*, **Abdullatif Köksal***, Desmond Elliott, Hinrich Schütze
-
-[Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024.
-
+2. *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*  
+Ingo Ziegler*, **Abdullatif Köksal***, Desmond Elliott, Hinrich Schütze  
+[Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024.  
 [💻 Code](https://github.com/ziegler-ingo/CRAFT).
-
-3. *LongForm: Effective Instruction Tuning with Reverse Instructions*
-
-**Abdullatif Köksal**, Timo Schick, Anna Korhonen, Hinrich Schütze
-
+3. *LongForm: Effective Instruction Tuning with Reverse Instructions*  
+**Abdullatif Köksal**, Timo Schick, Anna Korhonen, Hinrich Schütze  
 [EMNLP Findings](https://arxiv.org/abs/2304.08460). 2024.
-
-4. *Consistent Document-Level Relation Extraction via Counterfactuals*
-
-Ali Modarressi, **Abdullatif Köksal**, Hinrich Schütze
-
+4. *Consistent Document-Level Relation Extraction via Counterfactuals*  
+Ali Modarressi, **Abdullatif Köksal**, Hinrich Schütze  
 [EMNLP Findings](https://arxiv.org/abs/2407.06699). 2024.
-
-5. *TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish*
-
-Arda Yüksel, **Abdullatif Köksal**, Lütfi Kerem Şenel, Anna Korhonen, Hinrich Schütze
-
+5. *TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish*  
+Arda Yüksel, **Abdullatif Köksal**, Lütfi Kerem Şenel, Anna Korhonen, Hinrich Schütze  
 [EMNLP Findings](https://arxiv.org/abs/2407.12402). 2024.
-
-6. *SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists*
-
-Raoyuan Zhao, **Abdullatif Köksal**, Yihong Liu, Leonie Weissweiler, Anna Korhonen, Hinrich Schütze
-
+6. *SYNTHEVAL: Hybrid Behavioral Testing of NLP Models with Synthetic CheckLists*  
+Raoyuan Zhao, **Abdullatif Köksal**, Yihong Liu, Leonie Weissweiler, Anna Korhonen, Hinrich Schütze  
 [EMNLP Findings](https://arxiv.org/abs/2408.12402). 2024.
-
-7. *Hallucination Augmented Recitations for Language Models*
-
-**Abdullatif Köksal**, Renat Aksitov, Chung-Ching Chang
-
+7. *Hallucination Augmented Recitations for Language Models*  
+**Abdullatif Köksal**, Renat Aksitov, Chung-Ching Chang  
 [Submitted to COLING](https://arxiv.org/abs/2311.07424). 2024.
-
-8. *MEAL: Stable and Active Learning for Few-Shot Prompting*
-
-**Abdullatif Köksal**, Timo Schick, Hinrich Schütze
-
+8. *MEAL: Stable and Active Learning for Few-Shot Prompting*  
+**Abdullatif Köksal**, Timo Schick, Hinrich Schütze  
 [EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.36/). 2023.
-
-9. *Language-Agnostic Bias Detection in Language Models with Bias Probing*
-
-**Abdullatif Köksal**, Omer F. Yalcin, Ahmet Akbiyik, M. Tahir Kilavuz, Anna Korhonen, Hinrich Schütze
-
+9. *Language-Agnostic Bias Detection in Language Models with Bias Probing*  
+**Abdullatif Köksal**, Omer F. Yalcin, Ahmet Akbiyik, M. Tahir Kilavuz, Anna Korhonen, Hinrich Schütze  
 [EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.848/). 2023.
-
-10. *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*
-
-Yi Huang, Buse Giledereli, **Abdullatif Köksal**, Arzucan Özgür, Elif Ozkirimli
-
+10. *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*  
+Yi Huang, Buse Giledereli, **Abdullatif Köksal**, Arzucan Özgür, Elif Ozkirimli  
 [EMNLP](https://aclanthology.org/2021.emnlp-main.643/). 2021.
-
-11. *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*
-
-**Abdullatif Köksal**, Arzucan Özgür
-
+11. *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*  
+**Abdullatif Köksal**, Arzucan Özgür  
 [EMNLP Findings](https://aclanthology.org/2020.findings-emnlp.32/). 2020.
