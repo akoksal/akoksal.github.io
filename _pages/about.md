@@ -25,7 +25,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
   </ol>
 </div>
 
-**Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
+**Counterfactuality/Robustness**. How to effectively create counterfactual datasets and improve model robustness/capabilities?
 <div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
   <ul>
     <li>Generated a <a href="https://arxiv.org/abs/2311.07424">counterfactual open-book QA dataset</a> by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)</li>
@@ -40,7 +40,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
     <li>Designed one of the first <a href="https://aclanthology.org/2020.findings-emnlp.32/">multilingual relation extraction datasets</a> covering six languages.</li>
     <li><a href="https://aclanthology.org/2023.findings-emnlp.848/">Demonstrated</a> significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).</li>
     <li>Analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.</li>
-    <li>Turkish-specific contributions: As a Turkish researcher, I've contributed to various Turkish NLP resources: <a href="https://arxiv.org/abs/2407.12402">TurkishMMLU</a> and resources for <a href="https://ieeexplore.ieee.org/abstract/document/9477814/">sentiment analysis</a> and <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0">dependency parsing</a>, various Github repositories [<a href="https://github.com/akoksal/Turkish-Word2Vec">1</a>, <a href="https://github.com/akoksal/Turkish-Lemmatizer">2</a>, <a href="https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish">3</a>] and gave <a href="https://www.youtube.com/watch?v=d6GsBAgzD-I">talks</a>. I co-organized the first Turkic NLP workshop, <a href="https://sigturk.github.io/workshop">SIGTURK</a>, at ACL-2024.
+    <li>Turkish-specific contributions: As a Turkish researcher, I've contributed to various Turkish NLP resources: <a href="https://arxiv.org/abs/2407.12402">TurkishMMLU</a> and resources for <a href="https://ieeexplore.ieee.org/abstract/document/9477814/">sentiment analysis</a> and <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0">dependency parsing</a>, various Github repositories [<a href="https://github.com/akoksal/Turkish-Word2Vec">1</a>, <a href="https://github.com/akoksal/Turkish-Lemmatizer">2</a>, <a href="https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish">3</a>] and gave <a href="https://www.youtube.com/watch?v=d6GsBAgzD-I">talks</a>. I co-organized the first Turkic NLP workshop, <a href="https://sigturk.github.io/workshop">SIGTURK</a>, at ACL-2024.</li>
   </ul>
 </div>
 
