@@ -94,9 +94,12 @@ Raoyuan Zhao, **Abdullatif Köksal**, Yihong Liu, Leonie Weissweiler, Anna Korho
 9. *Language-Agnostic Bias Detection in Language Models with Bias Probing*  
 **Abdullatif Köksal**, Omer F. Yalcin, Ahmet Akbiyik, M. Tahir Kilavuz, Anna Korhonen, Hinrich Schütze  
 [EMNLP Findings](https://aclanthology.org/2023.findings-emnlp.848/). 2023.
-10. *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*  
+10. *The better your Syntax, the better your Semantics?*  
+Leonie Weissweiler, Valentin Hofmann, **Abdullatif Köksal**, Hinrich Schütze
+[EMNLP](https://aclanthology.org/2022.emnlp-main.746/). 2022.
+11. *Balancing Methods for Multilabel Text Classification with Long-Tailed Class Distribution*  
 Yi Huang, Buse Giledereli, **Abdullatif Köksal**, Arzucan Özgür, Elif Ozkirimli  
 [EMNLP](https://aclanthology.org/2021.emnlp-main.643/). 2021.
-11. *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*  
+12. *The RELX Dataset and Matching the Multilingual Blanks for Cross-lingual Relation Classification*  
 **Abdullatif Köksal**, Arzucan Özgür  
 [EMNLP Findings](https://aclanthology.org/2020.findings-emnlp.32/). 2020.
