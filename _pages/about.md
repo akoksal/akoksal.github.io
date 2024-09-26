@@ -55,7 +55,7 @@ News
 Selected Publications
 ------
 1. **Köksal, A.**; Thaler, M.; Imani, A.; Üstün, A.; Korhonen, A.; Schütze, H.; *MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions*. [Submitted to TACL](https://arxiv.org/abs/2409.12958). 2024. [💻 Code](https://github.com/akoksal/muri).
-2. **Ziegler, I.**; Köksal, A.; Elliott, D.; Schütze, H.; *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*. [Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024. [💻 Code](https://github.com/ziegler-ingo/CRAFT).
+2. Ziegler, I.*; **Köksal, A.***; Elliott, D.; Schütze, H.; *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*. [Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024. [💻 Code](https://github.com/ziegler-ingo/CRAFT).
 3. **Köksal, A.**; Schick, T.; Korhonen, A.; Schütze, H.; *LongForm: Effective Instruction Tuning with Reverse Instructions*. [EMNLP Findings](https://arxiv.org/abs/2304.08460). 2024.
 4. Modarressi, A.; **Köksal, A.**; Schütze, H.; *Consistent Document-Level Relation Extraction via Counterfactuals*. [EMNLP Findings](https://arxiv.org/abs/2407.06699). 2024.
 5. Yüksel, A.; **Köksal, A.**; Şenel, L.K.; Korhonen, A.; Schütze, H.; *TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish*. [EMNLP Findings](https://arxiv.org/abs/2407.12402). 2024.
