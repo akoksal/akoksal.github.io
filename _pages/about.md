@@ -40,13 +40,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
     <li>Designed one of the first <a href="https://aclanthology.org/2020.findings-emnlp.32/">multilingual relation extraction datasets</a> covering six languages.</li>
     <li><a href="https://aclanthology.org/2023.findings-emnlp.848/">Demonstrated</a> significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).</li>
     <li>Analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.</li>
-    <li>Turkish-specific contributions: As a Turkish researcher, I've contributed to various Turkish NLP resources:
-  <a href="https://arxiv.org/abs/2407.12402">TurkishMMLU</a> and resources for <a href="https://ieeexplore.ieee.org/abstract/document/9477814/">sentiment analysis</a> and <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0">dependency parsing</a>, various Github repositories 
-  [<a href="https://github.com/akoksal/Turkish-Word2Vec">1</a>, 
-  <a href="https://github.com/akoksal/Turkish-Lemmatizer">2</a>, 
-  <a href="https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish">3</a>] 
-  and gave <a href="https://www.youtube.com/watch?v=d6GsBAgzD-I">talks</a>. 
-  I co-organized the first Turkic NLP workshop, <a href="https://sigturk.github.io/workshop">SIGTURK</a>, at ACL-2024.
+    <li>Turkish-specific contributions: As a Turkish researcher, I've contributed to various Turkish NLP resources: <a href="https://arxiv.org/abs/2407.12402">TurkishMMLU</a> and resources for <a href="https://ieeexplore.ieee.org/abstract/document/9477814/">sentiment analysis</a> and <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0">dependency parsing</a>, various Github repositories [<a href="https://github.com/akoksal/Turkish-Word2Vec">1</a>, <a href="https://github.com/akoksal/Turkish-Lemmatizer">2</a>, <a href="https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish">3</a>] and gave <a href="https://www.youtube.com/watch?v=d6GsBAgzD-I">talks</a>. I co-organized the first Turkic NLP workshop, <a href="https://sigturk.github.io/workshop">SIGTURK</a>, at ACL-2024.
   </ul>
 </div>
 
