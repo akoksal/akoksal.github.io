@@ -17,7 +17,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 > * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks. -->
 
 **Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
-<div style="background-color: rgba(205, 182, 98, 0.1); padding: 1px; border-radius: 5px;">
+<div style="background-color: rgba(205, 182, 98, 0.1); padding: 0px 2px; border-radius: 5px;">
   <ol>
     <li>Introduced <a href="https://arxiv.org/abs/2304.08460">reverse instructions</a> to repurpose existing human-written texts for instruction tuning, improving long-form output quality.</li>
     <li>Developed <a href="https://arxiv.org/abs/2409.12958">MURI (Multilingual Reverse Instructions)</a>, creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.</li>
