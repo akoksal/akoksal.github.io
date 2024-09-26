@@ -79,7 +79,7 @@ yandex_site_verification :
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-162549108-1"
+    tracking_id: "G-H2L7Y2BT8N"
     anonymize_ip: false # default
 
 
