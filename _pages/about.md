@@ -49,9 +49,8 @@ News
 **June 2023**: I will be in Mountain View for 3 months as a research intern at Google, focusing on attribution and counterfactuality in large language models.
 <!-- **October 2022**: [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://aclanthology.org/2022.emnlp-main.746/) is accepted at EMNLP 2022.<br>
 📃 New preprint: [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment](https://arxiv.org/abs/2210.06207)
-
 **September 2022**: I attended [ELLIS Doctoral Symposium](https://ellisalicante.org/eds2022/) in Alicante and presented our work on language-agnostic racial bias detection in LMs.
- -->
+-->
 
 Selected Publications
 ------
