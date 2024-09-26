@@ -29,7 +29,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 > * We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.
 
 Turkish-specific contributions:
-> As a Turkish researcher, I've contributed to various Turkish NLP resources:
+>> As a Turkish researcher, I've contributed to various Turkish NLP resources:
  [TurkishMMLU](https://arxiv.org/abs/2407.12402) and resources for [sentiment analysis](https://ieeexplore.ieee.org/abstract/document/9477814/) and [dependency parsing](https://link.springer.com/article/10.1007/s10579-021-09558-0), various Github repositories [[1](https://github.com/akoksal/Turkish-Word2Vec),[2](https://github.com/akoksal/Turkish-Lemmatizer),[3](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish)] and gave [talks](https://www.youtube.com/watch?v=d6GsBAgzD-I). I co-organized the first Turkic NLP workshop, [SIGTURK](https://sigturk.github.io/workshop), at ACL-2024. 
 
 News
