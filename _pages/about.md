@@ -16,8 +16,14 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 > * I developed [MURI (Multilingual Reverse Instructions)](https://arxiv.org/abs/2409.12958), creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.
 > * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks. -->
 
+
 <div style="background-color: rgba(0, 0, 255, 0.1); padding: 10px; border-radius: 5px;">
-  <p><strong>Highlight:</strong> I introduced <a href="https://arxiv.org/abs/2304.08460">reverse instructions</a> to repurpose existing human-written texts for instruction tuning, improving long-form output quality. I developed <a href="https://arxiv.org/abs/2409.12958">MURI (Multilingual Reverse Instructions)</a>, creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora. I co-developed <a href="https://arxiv.org/abs/2409.02098">CRAFT</a>, a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.</p>
+  <p><strong>**Data repurposing**.</strong> How to generate high-quality synthetic datasets with LLMs?</p>
+  <ol>
+    <li>I introduced <a href="https://arxiv.org/abs/2304.08460">reverse instructions</a> to repurpose existing human-written texts for instruction tuning, improving long-form output quality.</li>
+    <li>I developed <a href="https://arxiv.org/abs/2409.12958">MURI (Multilingual Reverse Instructions)</a>, creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.</li>
+    <li>I co-developed <a href="https://arxiv.org/abs/2409.02098">CRAFT</a>, a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.</li>
+  </ol>
 </div>
 
 **Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
