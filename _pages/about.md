@@ -13,20 +13,21 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 
 **Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
 
-> * I introduced [reverse instructions](https://arxiv.org/abs/2304.08460) to repurpose existing human-written texts for instruction tuning, improving long-form output quality. 
-* I developed [MURI (Multilingual Reverse Instructions)](https://arxiv.org/abs/2409.12958), creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.
-* I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.
+``` * I introduced [reverse instructions](https://arxiv.org/abs/2304.08460) to repurpose existing human-written texts for instruction tuning, improving long-form output quality. 
+ * I developed [MURI (Multilingual Reverse Instructions)](https://arxiv.org/abs/2409.12958), creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.
+ * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.
+ ```
 
 **Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
 > * I have [generated](https://arxiv.org/abs/2311.07424) a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)
-* We [created](https://arxiv.org/abs/2407.06699) a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.
-* I [investigated](https://aclanthology.org/2023.findings-emnlp.36/) the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.
+> * We [created](https://arxiv.org/abs/2407.06699) a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.
+> * I [investigated](https://aclanthology.org/2023.findings-emnlp.36/) the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.
 
 **Multilinguality and Bias**. Contributing to multilingual NLP and bias recognition.
 
 > * I have designed one of the first [multilingual relation extraction datasets](https://aclanthology.org/2020.findings-emnlp.32/) covering six languages.
-* I [demonstrated](https://aclanthology.org/2023.findings-emnlp.848/) significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).
-* We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.
+> * I [demonstrated](https://aclanthology.org/2023.findings-emnlp.848/) significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).
+> * We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.
 
 Turkish-specific contributions:
 > As a Turkish researcher, I've contributed to various Turkish NLP resources:
