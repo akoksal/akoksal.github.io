@@ -11,13 +11,14 @@ I am a final-year ELLIS PhD student at [CIS](https://www.cis.uni-muenchen.de/) a
 
 My research focuses on improving LLM capabilities through *effective data utilization* and *synthetic dataset generation*, with a particular emphasis on *corpus-mining*, *counterfactuality*, *robustness*, and *multilinguality*. Below are key questions and findings from my work:
 
-**Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
-
-<span style="color:blue">
+<!-- **Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
 > * I introduced [reverse instructions](https://arxiv.org/abs/2304.08460) to repurpose existing human-written texts for instruction tuning, improving long-form output quality. 
 > * I developed [MURI (Multilingual Reverse Instructions)](https://arxiv.org/abs/2409.12958), creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.
-> * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.
-</span>
+> * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks. -->
+
+<div style="background-color: rgba(0, 0, 255, 0.1); padding: 10px; border-radius: 5px;">
+  <p><strong>Highlight:</strong> I introduced <a href="https://arxiv.org/abs/2304.08460">reverse instructions</a> to repurpose existing human-written texts for instruction tuning, improving long-form output quality. I developed <a href="https://arxiv.org/abs/2409.12958">MURI (Multilingual Reverse Instructions)</a>, creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora. I co-developed <a href="https://arxiv.org/abs/2409.02098">CRAFT</a>, a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks.</p>
+</div>
 
 **Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
 > * I have [generated](https://arxiv.org/abs/2311.07424) a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)
