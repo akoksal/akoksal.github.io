@@ -36,11 +36,17 @@ Turkish-specific contributions:
 News
 ------
 **October 2024**: 4 papers accepted at EMNLP 2024: [LongForm](https://arxiv.org/abs/2304.08460), [TurkishMMLU](https://arxiv.org/abs/2407.12402), [SynthEval](https://arxiv.org/abs/2408.17437), [CovERed](https://www.arxiv.org/abs/2407.06699).
+
 **September 2024**: I am visiting the Language Technology Lab at the University of Cambridge.
+
 **August 2024**: I have attended ACL 2024 to co-organize the first Turkic NLP workshop, [SIGTURK](https://sigturk.github.io/workshop).
+
 **May 2024**: I have presented [LongForm](https://arxiv.org/abs/2304.08460) and [Hallucination Augmented Recitations](https://arxiv.org/abs/2311.07424) at [the DPFM workshop](https://iclr.cc/virtual/2024/workshop/20585) at ICLR 2024. 
+
 **May 2024**: I have attended LREC-COLING 2024 to present [SilverAlign](https://aclanthology.org/2024.lrec-main.1290/).
+
 **December 2023**: I have attended EMNLP 2023 to present [MEAL](https://aclanthology.org/2023.findings-emnlp.36/) and [Language-Agnostic Bias Detection in Language Models](https://aclanthology.org/2023.findings-emnlp.848/).
+
 **June 2023**: I will be in Mountain View for 3 months as a research intern at Google, focusing on attribution and counterfactuality in large language models.
 <!-- **October 2022**: [The Better Your Syntax, the Better Your Semantics? Probing Pretrained Language Models for the English Comparative Correlative](https://aclanthology.org/2022.emnlp-main.746/) is accepted at EMNLP 2022.<br>
 📃 New preprint: [SilverAlign: MT-Based Silver Data Algorithm For Evaluating Word Alignment](https://arxiv.org/abs/2210.06207)
