@@ -17,7 +17,7 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 > * I co-developed [CRAFT](https://arxiv.org/abs/2409.02098), a method for generating task-specific synthetic datasets by retrieving and rewriting relevant documents from large-scale corpora, showing competitive results to human-annotated datasets across various tasks. -->
 
 **Data repurposing**. How to generate high-quality synthetic datasets with LLMs?
-<div style="background-color: rgba(205, 182, 98, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
+<div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
   <ol>
     <li>Introduced <a href="https://arxiv.org/abs/2304.08460">reverse instructions</a> to repurpose existing human-written texts for instruction tuning, improving long-form output quality.</li>
     <li>Developed <a href="https://arxiv.org/abs/2409.12958">MURI (Multilingual Reverse Instructions)</a>, creating instruction-tuning datasets for 200 languages by repurposing multilingual human-written corpora.</li>
@@ -26,19 +26,33 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 </div>
 
 **Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
-> * I have [generated](https://arxiv.org/abs/2311.07424) a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)
-> * We [created](https://arxiv.org/abs/2407.06699) a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.
-> * I [investigated](https://aclanthology.org/2023.findings-emnlp.36/) the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.
+<div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
+  <ul>
+    <li><a href="https://arxiv.org/abs/2311.07424">Generated</a> a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)</li>
+    <li><a href="https://arxiv.org/abs/2407.06699">Created</a> a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.</li>
+    <li><a href="https://aclanthology.org/2023.findings-emnlp.36/">Investigated</a> the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.</li>
+  </ul>
+</div>
 
 **Multilinguality and Bias**. Contributing to multilingual NLP and bias recognition.
-
-> * I have designed one of the first [multilingual relation extraction datasets](https://aclanthology.org/2020.findings-emnlp.32/) covering six languages.
-> * I [demonstrated](https://aclanthology.org/2023.findings-emnlp.848/) significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).
-> * We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.
+<div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
+  <ul>
+    <li>I have designed one of the first <a href="https://aclanthology.org/2020.findings-emnlp.32/">multilingual relation extraction datasets</a> covering six languages.</li>
+    <li>I <a href="https://aclanthology.org/2023.findings-emnlp.848/">demonstrated</a> significant differences in intrinsic bias toward nationalities among various monolingual models (e.g., Arabic, Turkish, German BERTs).</li>
+    <li>We analyzed gender-occupation bias in LLMs, linking it to pretraining data, and examining the effects of instruction tuning, PPO/DPO on bias mitigation.</li>
+  </ul>
+</div>
 
 Turkish-specific contributions:
->> As a Turkish researcher, I've contributed to various Turkish NLP resources:
- [TurkishMMLU](https://arxiv.org/abs/2407.12402) and resources for [sentiment analysis](https://ieeexplore.ieee.org/abstract/document/9477814/) and [dependency parsing](https://link.springer.com/article/10.1007/s10579-021-09558-0), various Github repositories [[1](https://github.com/akoksal/Turkish-Word2Vec),[2](https://github.com/akoksal/Turkish-Lemmatizer),[3](https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish)] and gave [talks](https://www.youtube.com/watch?v=d6GsBAgzD-I). I co-organized the first Turkic NLP workshop, [SIGTURK](https://sigturk.github.io/workshop), at ACL-2024. 
+<div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
+  As a Turkish researcher, I've contributed to various Turkish NLP resources:
+  <a href="https://arxiv.org/abs/2407.12402">TurkishMMLU</a> and resources for <a href="https://ieeexplore.ieee.org/abstract/document/9477814/">sentiment analysis</a> and <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0">dependency parsing</a>, various Github repositories 
+  [<a href="https://github.com/akoksal/Turkish-Word2Vec">1</a>, 
+  <a href="https://github.com/akoksal/Turkish-Lemmatizer">2</a>, 
+  <a href="https://github.com/akoksal/BERT-Sentiment-Analysis-Turkish">3</a>] 
+  and gave <a href="https://www.youtube.com/watch?v=d6GsBAgzD-I">talks</a>. 
+  I co-organized the first Turkic NLP workshop, <a href="https://sigturk.github.io/workshop">SIGTURK</a>, at ACL-2024.
+</div>
 
 News
 ------
