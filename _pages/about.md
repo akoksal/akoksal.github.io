@@ -28,8 +28,8 @@ My research focuses on improving LLM capabilities through *effective data utiliz
 **Counterfactuality/Robustness**. How to effectively create counterfactual examples and improve model robustness/capabilities?
 <div style="background-color: rgba(244, 189, 69, 0.1); padding: 0px 2px; margin-top: -5px; border-radius: 5px;">
   <ul>
-    <li><a href="https://arxiv.org/abs/2311.07424">Generated</a> a counterfactual open-book QA dataset by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)</li>
-    <li><a href="https://arxiv.org/abs/2407.06699">Created</a> a counterfactual document-level relation extraction dataset, improving consistency in relation extraction models.</li>
+    <li>Generated a <a href="https://arxiv.org/abs/2311.07424">counterfactual open-book QA dataset</a> by utilizing hallucination in LLMs, demonstrating improved faithfulness across various QA datasets. (Google internship)</li>
+    <li>Created a <a href="https://arxiv.org/abs/2407.06699">counterfactual document-level relation extraction dataset</a>, improving consistency in relation extraction models.</li>
     <li><a href="https://aclanthology.org/2023.findings-emnlp.36/">Investigated</a> the high variance in few-shot prompt-based fine-tuning, proposing ensembling and active learning techniques for more robust finetuning.</li>
   </ul>
 </div>
