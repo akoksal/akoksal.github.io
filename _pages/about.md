@@ -71,7 +71,7 @@ Selected Publications
 **Abdullatif Köksal**, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze  
 [Submitted to TACL](https://arxiv.org/abs/2409.12958). 2024. [💻 Code](https://github.com/akoksal/muri).
 2. *CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation*  
-Ingo Ziegler*, **Abdullatif Köksal***, Desmond Elliott, Hinrich Schütze  
+Ingo Ziegler\*, **Abdullatif Köksal\***, Desmond Elliott, Hinrich Schütze  
 [Submitted to TACL](https://arxiv.org/abs/2409.02098). 2024. [💻 Code](https://github.com/ziegler-ingo/CRAFT).
 3. *LongForm: Effective Instruction Tuning with Reverse Instructions*  
 **Abdullatif Köksal**, Timo Schick, Anna Korhonen, Hinrich Schütze  
