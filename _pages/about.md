@@ -26,12 +26,12 @@ My research focuses on improving LLM capabilities through **effective data utili
 * **Turkish-specific contributions:** As a Turkish researcher, I've contributed to various Turkish NLP resources: *TurkishMMLU*, sentiment analysis, and dependency parsing. I also co-organized the Turkic NLP workshop, *SIGTURK*, at ACL 2024 and 2026.
 
 ## News
-* **March 2026:** I am co-organizing the Second Turkic NLP Workshop (*SIGTURK 2*) at **EACL 2026**. My paper *Tracing bias from pretraining data to alignment* was accepted to **LREC 2026**.
-* **November 2025:** Our paper *Do We Know What LLMs Don’t Know?* was accepted to **EMNLP-Findings 2025**.
-* **July 2025:** *TUMLU* was accepted to **ACL 2025**.
-* **May 2025:** I have started a new position as a **Research Scientist at Google DeepMind** in London, joining the Privacy and Security team!
-* **March 2025:** Our paper *MemLLM* was accepted to **TMLR**.
-* **October 2024:** 4 papers accepted at **EMNLP 2024**: LongForm, TurkishMMLU, SynthEval, CovERed.
+* **March 2026:** I am co-organizing the Second Turkic NLP Workshop at EACL 2026. My paper *Tracing bias from pretraining data to alignment* was accepted to LREC 2026.
+* **November 2025:** Our paper *Do We Know What LLMs Don’t Know?* was accepted to EMNLP-Findings 2025.
+* **July 2025:** *TUMLU* was accepted to ACL 2025.
+* **May 2025:** I have started a new position as a Research Scientist at Google DeepMind in London, joining the Privacy and Security team!
+* **March 2025:** Our paper *MemLLM* was accepted to TMLR.
+* **October 2024:** 4 papers accepted at EMNLP 2024: LongForm, TurkishMMLU, SynthEval, CovERed.
 * **September 2024:** I am visiting the Language Technology Lab at the University of Cambridge.
 * **August 2024:** I attended ACL 2024 to co-organize the first Turkic NLP workshop, SIGTURK.
 * **May 2024:** I presented LongForm and Hallucination Augmented Recitations at the DPFM workshop at ICLR 2024.
