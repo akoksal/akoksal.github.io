@@ -86,7 +86,7 @@ analytics:
 # Site Author
 author:
   name             : "Abdullatif Köksal"
-  avatar           : "/images/profile.jpeg"
+  avatar           : "profile.jpeg"
   bio      : "Research Scientist at Google DeepMind. PhD from LMU Munich & Cambridge University."
   location : "London, UK"
   employer         :
